@@ -1,0 +1,14 @@
+notes on configuring Atom for Python
+
+Installed the following packages:
+Script
+Hydrogen
+autocomplete-python (might have to configure this for python3)
+
+I had to configure Atom to automatically use Python3 to run code
+with Script (CMD-i)
+1. open Atom-preferences and 'open config folder'
+2. packages - script - library - grammars - python.coffee and change
+   file-based and selection-based command from 'python' to 'python3'
+3. if I don't do this, it defaults to python2.7 and it won't recognize
+   the tkinter package
