@@ -12,3 +12,13 @@ with Script (CMD-i)
    file-based and selection-based command from 'python' to 'python3'
 3. if I don't do this, it defaults to python2.7 and it won't recognize
    the tkinter package
+
+GitHub integration
+1. create an empty repository at github.com
+2. clone the repository here (do I have to do a pull request?)
+3. open a new file and add some code
+4. save it as a .py file
+5. in the Git tab, stage the changes (all or file by file)
+6. created a main_branch of the master
+7. commit to main_branch
+8. publish to push it to github.com 
